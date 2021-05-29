@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16sp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AI LA TRIEU PHU"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="30sp">
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/tv_content_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_blue_conner_10"
+            android:text="Content question 1"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_marginTop="30dp"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_number_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_orange_conner_130"
+            android:gravity="center"
+            android:text="Number Question"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer1"
+        android:background="@drawable/bg_blue_conner_30"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_answer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer2"
+        android:background="@drawable/bg_blue_conner_30"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_answer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer3"
+        android:background="@drawable/bg_blue_conner_30"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_answer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer4"
+        android:background="@drawable/bg_blue_conner_30"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>
